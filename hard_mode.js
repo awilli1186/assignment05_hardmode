@@ -1,4 +1,4 @@
-var pushButton = function(buttonValue) {
+var clickButton = function(buttonValue) {
   if (buttonValue == 'c') {
     document.getElementById('display').value = " ";
   } else {
