@@ -1,5 +1,5 @@
 var clickButton = function(buttonValue) {
-  if (buttonValue == 'c') {
+  if (buttonValue === 'c') {
     document.getElementById('display').value = " ";
   } else {
     document.getElementById('display').value += buttonValue;
@@ -7,6 +7,6 @@ var clickButton = function(buttonValue) {
 };
 
 var calculate = function(equation) {
-  var answer =eval(equation);
+  var answer = eval(equation);
   document.getElementById('display').value = answer;
 };
